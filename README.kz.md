@@ -11,8 +11,8 @@
     🌐 <a href="README.md">Русский</a> · <a href="README.en.md">English</a> · <a href="README.zh.md">简体中文</a> · <a href="README.tr.md">Türkçe</a> · <b>Қазақша</b> · <a href="README.uz.md">Oʻzbekcha</a>
   </p>
   <p>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha-g-service?color=blueviolet" alt="Соңғы шығарылым"></a>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha-g-service?color=blueviolet" alt="Шығарылым күні"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha_g-service?color=blueviolet" alt="Соңғы шығарылым"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha_g-service?color=blueviolet" alt="Шығарылым күні"></a>
   </p>
   <p>
     <img src="media/demo.png" width="450" alt="Home Assistant-тағы сенсорлар">
@@ -70,7 +70,7 @@ cp -r custom_components/g_service /config/custom_components/
 
 1. HACS → **Integrations** бөлімін ашыңыз
 2. `…` → **Custom repositories** түймесін басыңыз
-3. `https://github.com/mordvn/ha-g-service` мекенжайын **Integration** түрімен қосыңыз
+3. `https://github.com/mordvn/ha_g-service` мекенжайын **Integration** түрімен қосыңыз
 4. **Install** түймесін басыңыз
 5. HA-ны қайта іске қосып, **Settings → Devices & Services** арқылы қосыңыз
 
@@ -237,7 +237,7 @@ HTML талдау — күміс оқ емес. Егер провайдер бе
 
 Қате таптыңыз ба? Провайдер сайтты жаңартып, интеграция бұзылды ма?
 
-→ [GitHub-та Issue ашыңыз](https://github.com/mordvn/ha-g-service/issues)
+→ [GitHub-та Issue ашыңыз](https://github.com/mordvn/ha_g-service/issues)
 
 Мыналарды қоса беріңіз:
 

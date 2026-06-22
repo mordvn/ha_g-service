@@ -11,8 +11,8 @@
     🌐 <a href="README.md">Русский</a> · <a href="README.en.md">English</a> · <b>简体中文</b> · <a href="README.tr.md">Türkçe</a> · <a href="README.kz.md">Қазақша</a> · <a href="README.uz.md">Oʻzbekcha</a>
   </p>
   <p>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha-g-service?color=blueviolet" alt="最新版本"></a>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha-g-service?color=blueviolet" alt="发布日期"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha_g-service?color=blueviolet" alt="最新版本"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha_g-service?color=blueviolet" alt="发布日期"></a>
   </p>
   <p>
     <img src="media/demo.png" width="450" alt="Home Assistant 中的传感器">
@@ -70,7 +70,7 @@ cp -r custom_components/g_service /config/custom_components/
 
 1. 打开 HACS → **Integrations**
 2. 点击 `…` → **Custom repositories**
-3. 添加 `https://github.com/mordvn/ha-g-service`，类型选择 **Integration**
+3. 添加 `https://github.com/mordvn/ha_g-service`，类型选择 **Integration**
 4. 点击 **Install**
 5. 重启 HA，然后通过 **Settings → Devices & Services** 添加
 
@@ -237,7 +237,7 @@ HTML 解析并非万能的。如果供应商更改页面结构，该集成将无
 
 发现错误？供应商更新了网站导致集成无法使用？
 
-→ [在 GitHub 上创建 Issue](https://github.com/mordvn/ha-g-service/issues)
+→ [在 GitHub 上创建 Issue](https://github.com/mordvn/ha_g-service/issues)
 
 请附上以下信息：
 

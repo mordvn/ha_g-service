@@ -11,8 +11,8 @@
     🌐 <a href="README.md">Русский</a> · <b>English</b> · <a href="README.zh.md">简体中文</a> · <a href="README.tr.md">Türkçe</a> · <a href="README.kz.md">Қазақша</a> · <a href="README.uz.md">Oʻzbekcha</a>
   </p>
   <p>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha-g-service?color=blueviolet" alt="Latest Release"></a>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha-g-service?color=blueviolet" alt="Release Date"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha_g-service?color=blueviolet" alt="Latest Release"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha_g-service?color=blueviolet" alt="Release Date"></a>
   </p>
   <p>
     <img src="media/demo.png" width="450" alt="Sensors in Home Assistant">
@@ -70,7 +70,7 @@ That's it! Sensors will appear automatically. No keys, tokens, or logins require
 
 1. Open HACS → **Integrations**
 2. Click `…` → **Custom repositories**
-3. Add `https://github.com/mordvn/ha-g-service` as type **Integration**
+3. Add `https://github.com/mordvn/ha_g-service` as type **Integration**
 4. Click **Install**
 5. Restart HA and add via **Settings → Devices & Services**
 
@@ -237,7 +237,7 @@ HTML parsing is not a silver bullet. If the provider changes the page structure,
 
 Found a bug? Did the provider update the site and break the integration?
 
-→ [Create an issue on GitHub](https://github.com/mordvn/ha-g-service/issues)
+→ [Create an issue on GitHub](https://github.com/mordvn/ha_g-service/issues)
 
 Please include:
 

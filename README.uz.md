@@ -11,8 +11,8 @@
     🌐 <a href="README.md">Русский</a> · <a href="README.en.md">English</a> · <a href="README.zh.md">简体中文</a> · <a href="README.tr.md">Türkçe</a> · <a href="README.kz.md">Қазақша</a> · <b>Oʻzbekcha</b>
   </p>
   <p>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha-g-service?color=blueviolet" alt="Oxirgi versiya"></a>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha-g-service?color=blueviolet" alt="Chiqarilgan sana"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha_g-service?color=blueviolet" alt="Oxirgi versiya"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha_g-service?color=blueviolet" alt="Chiqarilgan sana"></a>
   </p>
   <p>
     <img src="media/demo.png" width="450" alt="Home Assistantʼdagi sensorlar">
@@ -70,7 +70,7 @@ Tamom! Sensorlar avtomatik ravishda paydo boʻladi. Kalitlar, tokenlar yoki logi
 
 1. HACS → **Integrations** boʻlimini oching
 2. `…` → **Custom repositories** tugmasini bosing
-3. `https://github.com/mordvn/ha-g-service` manzilini **Integration** turi bilan qoʻshing
+3. `https://github.com/mordvn/ha_g-service` manzilini **Integration** turi bilan qoʻshing
 4. **Install** tugmasini bosing
 5. HAʼni qayta ishga tushirib, **Settings → Devices & Services** orqali qoʻshing
 
@@ -237,7 +237,7 @@ HTML tahlili — kumush oʻq emas. Agar provayder sahifa tuzilishini oʻzgartirs
 
 Xato topdingizmi? Provayder saytni yangilab, integratsiya ishlamay qoldimi?
 
-→ [GitHubʼda Issue oching](https://github.com/mordvn/ha-g-service/issues)
+→ [GitHubʼda Issue oching](https://github.com/mordvn/ha_g-service/issues)
 
 Iltimos, quyidagilarni ilova qiling:
 

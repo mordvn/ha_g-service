@@ -11,8 +11,8 @@
     🌐 <b>Русский</b> · <a href="README.en.md">English</a> · <a href="README.zh.md">简体中文</a> · <a href="README.tr.md">Türkçe</a> · <a href="README.kz.md">Қазақша</a> · <a href="README.uz.md">Oʻzbekcha</a>
   </p>
   <p>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha-g-service?color=blueviolet" alt="Latest Release"></a>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha-g-service?color=blueviolet" alt="Release Date"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha_g-service?color=blueviolet" alt="Latest Release"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha_g-service?color=blueviolet" alt="Release Date"></a>
      </p>
   <p>
     <img src="media/demo.png" width="450" alt="Сенсоры в Home Assistant">
@@ -70,7 +70,7 @@ cp -r custom_components/g_service /config/custom_components/
 
 1. Открой HACS → **Integrations**
 2. Нажми `…` → **Custom repositories**
-3. Добавь `https://github.com/mordvn/ha-g-service` с типом **Integration**
+3. Добавь `https://github.com/mordvn/ha_g-service` с типом **Integration**
 4. Нажми **Install**
 5. Перезапусти HA и добавь через **Settings → Devices & Services**
 
@@ -230,7 +230,7 @@ card:
 
 Нашёл баг? Провайдер обновил сайт и интеграция сломалась?
 
-→ [Создай issue на GitHub](https://github.com/mordvn/ha-g-service/issues)
+→ [Создай issue на GitHub](https://github.com/mordvn/ha_g-service/issues)
 
 Пожалуйста, приложи:
 
@@ -247,7 +247,7 @@ card:
 | Флаг | Язык | Файл |
 |------|------|------|
 | 🇷🇺 | **Русский** | [`ru.json`](custom_components/g_service/translations/ru.json) |
-| 🇬🇧 | **English** | [`en.json`](custom_components/g_service/translations/en.json) |
+| 🇬🇧 | **English** | [`strings.json`](custom_components/g_service/strings.json) (по умолчанию) |
 
 Язык интерфейса выбирается автоматически на основе системного языка Home Assistant.
 

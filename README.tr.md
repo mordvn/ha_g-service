@@ -11,8 +11,8 @@
     🌐 <a href="README.md">Русский</a> · <a href="README.en.md">English</a> · <a href="README.zh.md">简体中文</a> · <b>Türkçe</b> · <a href="README.kz.md">Қазақша</a> · <a href="README.uz.md">Oʻzbekcha</a>
   </p>
   <p>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha-g-service?color=blueviolet" alt="Son Sürüm"></a>
-    <a href="https://github.com/mordvn/ha-g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha-g-service?color=blueviolet" alt="Yayın Tarihi"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/v/release/mordvn/ha_g-service?color=blueviolet" alt="Son Sürüm"></a>
+    <a href="https://github.com/mordvn/ha_g-service/releases"><img src="https://img.shields.io/github/release-date/mordvn/ha_g-service?color=blueviolet" alt="Yayın Tarihi"></a>
   </p>
   <p>
     <img src="media/demo.png" width="450" alt="Home Assistant'taki Sensörler">
@@ -70,7 +70,7 @@ Hepsi bu kadar! Sensörler otomatik olarak görünecektir. Anahtar, token veya g
 
 1. HACS → **Integrations** bölümünü açın
 2. `…` → **Custom repositories** seçeneğine tıklayın
-3. `https://github.com/mordvn/ha-g-service` adresini **Integration** türüyle ekleyin
+3. `https://github.com/mordvn/ha_g-service` adresini **Integration** türüyle ekleyin
 4. **Install** düğmesine tıklayın
 5. HA'yı yeniden başlatın ve **Settings → Devices & Services** üzerinden ekleyin
 
@@ -237,7 +237,7 @@ HTML ayrıştırma her derde deva değildir. Sağlayıcı sayfa yapısını değ
 
 Hata buldunuz mu? Sağlayıcı siteyi güncelledi ve entegrasyon çalışmıyor mu?
 
-→ [GitHub'da bir Issue oluşturun](https://github.com/mordvn/ha-g-service/issues)
+→ [GitHub'da bir Issue oluşturun](https://github.com/mordvn/ha_g-service/issues)
 
 Lütfen şunları ekleyin:
 
