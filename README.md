@@ -47,23 +47,7 @@
 
 ## 📦 Установка
 
-### Через Config Flow (рекомендуется)
-
-```bash
-# 1. Скопируй папку в custom_components
-cp -r custom_components/g_service /config/custom_components/
-
-# 2. Перезапусти Home Assistant
-#    Settings → System → Restart
-
-# 3. Добавь интеграцию
-#    Settings → Devices & Services → Add Integration
-#    Найди «G-Service (Игра-Сервис)» → Добавить
-```
-
-Всё! Сенсоры появятся автоматически. Никаких ключей, токенов или логинов.
-
-### Через HACS (ручное добавление)
+### Через HACS (рекомендуется)
 
 <details>
 <summary>Инструкция</summary>
