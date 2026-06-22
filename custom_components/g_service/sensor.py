@@ -54,14 +54,14 @@ _LOGGER = logging.getLogger(__name__)
 SENSOR_DESCRIPTIONS: tuple[SensorEntityDescription, ...] = (
     SensorEntityDescription(
         key=ATTR_BALANCE,
-        translation_key=ATTR_BALANCE,
+        name="Баланс",
         native_unit_of_measurement="₽",
         icon="mdi:currency-rub",
         state_class=SensorStateClass.MEASUREMENT,
     ),
     SensorEntityDescription(
         key=ATTR_DAYS_LEFT,
-        translation_key=ATTR_DAYS_LEFT,
+        name="Дней до блокировки",
         native_unit_of_measurement="дн",
         icon="mdi:calendar-clock",
         state_class=SensorStateClass.MEASUREMENT,
@@ -69,27 +69,27 @@ SENSOR_DESCRIPTIONS: tuple[SensorEntityDescription, ...] = (
     ),
     SensorEntityDescription(
         key=ATTR_ACCOUNT,
-        translation_key=ATTR_ACCOUNT,
+        name="Лицевой счёт",
         icon="mdi:account-card-details",
     ),
     SensorEntityDescription(
         key=ATTR_PLAN,
-        translation_key=ATTR_PLAN,
+        name="Тариф",
         icon="mdi:speedometer",
     ),
     SensorEntityDescription(
         key=ATTR_STATUS,
-        translation_key=ATTR_STATUS,
+        name="Доступ",
         icon="mdi:shield-check",
     ),
     SensorEntityDescription(
         key=ATTR_IP,
-        translation_key=ATTR_IP,
+        name="IP-адрес",
         icon="mdi:ip-network",
     ),
     SensorEntityDescription(
         key=ATTR_REWARDS,
-        translation_key=ATTR_REWARDS,
+        name="Бонусы",
         icon="mdi:gift",
     ),
 )
@@ -353,7 +353,7 @@ class GServiceSensor(CoordinatorEntity[GServiceCoordinator], SensorEntity):
         self._attr_unique_id = f"{entry.entry_id}_{description.key}"
         self._attr_device_info = {
             "identifiers": {(DOMAIN, entry.entry_id)},
-            "name": "G-Service (Игра-Сервис)",
+            "name": "G-Service",
             "manufacturer": "Игра-Сервис",
             "model": "Личный кабинет",
         }
