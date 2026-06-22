@@ -1,0 +1,15 @@
+{
+    "domain": "g_service",
+    "name": "G-Service (\u0418\u0433\u0440\u0430-\u0421\u0435\u0440\u0432\u0438\u0441)",
+    "codeowners": [
+        "@mordvn"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/mordvn/ha-g-service",
+    "integration_type": "hub",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/mordvn/ha-g-service/issues",
+    "requirements": [],
+    "version": "1.0.0"
+}

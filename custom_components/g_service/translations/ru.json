@@ -1,0 +1,55 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "G-Service (Игра-Сервис)",
+                "description": "Данные будут получены автоматически с сайта провайдера.\n\nВажно: Home Assistant должен быть подключён через сеть провайдера G-Service."
+            }
+        },
+        "abort": {
+            "single_instance_allowed": "Уже добавлено. Возможна только одна конфигурация."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Настройка G-Service",
+                "description": "Измените интервал обновления данных (по умолчанию 2 часа).",
+                "data": {
+                    "scan_interval": "Интервал обновления (секунды)"
+                },
+                "data_description": {
+                    "scan_interval": "От 60 (1 минута) до 86400 (24 часа)"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "balance": {
+                "name": "Баланс"
+            },
+            "days_remaining": {
+                "name": "Дней до блокировки",
+                "state": {
+                    "0": "Заблокирован"
+                }
+            },
+            "account": {
+                "name": "Лицевой счёт"
+            },
+            "plan": {
+                "name": "Тариф"
+            },
+            "status": {
+                "name": "Статус доступа"
+            },
+            "ip": {
+                "name": "IP-адрес"
+            },
+            "rewards": {
+                "name": "Бонусы"
+            }
+        }
+    }
+}

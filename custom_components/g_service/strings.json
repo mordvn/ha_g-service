@@ -1,0 +1,55 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "G-Service (Игра-Сервис)",
+                "description": "No configuration needed — data is fetched automatically from the provider's website.\n\nImportant: Home Assistant must be connected via the G-Service provider network."
+            }
+        },
+        "abort": {
+            "single_instance_allowed": "Already configured. Only one instance is allowed."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "G-Service Settings",
+                "description": "Change the data update interval (default is 2 hours).",
+                "data": {
+                    "scan_interval": "Update interval (seconds)"
+                },
+                "data_description": {
+                    "scan_interval": "From 60 (1 minute) to 86400 (24 hours)"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "balance": {
+                "name": "Balance"
+            },
+            "days_remaining": {
+                "name": "Days until block",
+                "state": {
+                    "0": "Blocked"
+                }
+            },
+            "account": {
+                "name": "Account number"
+            },
+            "plan": {
+                "name": "Tariff plan"
+            },
+            "status": {
+                "name": "Access status"
+            },
+            "ip": {
+                "name": "IP address"
+            },
+            "rewards": {
+                "name": "Bonuses"
+            }
+        }
+    }
+}
